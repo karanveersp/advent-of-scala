@@ -8,7 +8,7 @@ class TestReportRepair {
   @Test def partOne(): Unit = {
     assertEquals(703131, ReportRepair.computePartOne(2020))
   }
-  
+
   @Test def partTwo(): Unit = {
     assertEquals(272423970, ReportRepair.computePartTwo(2020))
   }
